@@ -1,0 +1,1170 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>
+        MA Family's Bengals
+    </title>
+
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <link href="./css/caroussel.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/path/to/parallax.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.7.3/themes/base/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+
+    <style type='text/css'>
+        * {
+            transition: all 0.5s !important;
+        }
+
+        body {
+            cursor: url(http://www.zingerbugimages.com/cursors/pink_paws3.ani), url(http://www.zingerbug.com/cursors/cursors/pink_paws3.gif), progress !important;
+            background-color: #4e4e4e;
+        }
+
+        section h2 {
+            color: #DF8308 !important;
+            border-bottom: 1px dotted #DF8308;
+
+        }
+
+        a:hover,
+        button:hover {
+            cursor: url(http://www.zingerbugimages.com/cursors/orange_cat.ani), url(http://www.zingerbug.com/cursors/cursors/orange_cat.gif), progress !important;
+
+        }
+
+        button:active {
+            cursor: url(http://www.zingerbugimages.com/cursors/tuxedo_cat.ani), url(http://www.zingerbug.com/cursors/cursors/tuxedo_cat.gif), progress !important;
+
+        }
+
+        .inverted-7.selected {
+            background-color: #DF8308 !important;
+            color: white !important;
+            border-radius: 40px !important;
+            letter-spacing: 2px;
+        }
+
+        .inverted-8:hover {
+            cursor: url(http://www.zingerbugimages.com/cursors/tuxedo_cat.ani), url(http://www.zingerbug.com/cursors/cursors/tuxedo_cat.gif), progress !important;
+
+        }
+
+
+
+        .text-box img {
+            border-radius: 40px;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+
+
+        .text-box img:hover {
+            border-radius: 0px !important;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .image-shadow:after {
+            transform: scale(0.95) translateY(36px) translateZ(-30px);
+            filter: blur(20px);
+            opacity: 0.9;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: inherit;
+            background-size: cover;
+            z-index: -1;
+            transition: filter .3s ease;
+        }
+
+        .image-shadow {
+            margin: 20px auto;
+            width: 80%;
+            height: auto;
+            display: block;
+            position: relative;
+            background-size: cover;
+        }
+
+
+        .js-tilt-container {
+            transition: transform .1s ease;
+            transform: rotateX(0) rotateY(0);
+            transform-style: preserve-3d;
+        }
+
+        .leave {
+            transform: rotateX(0) rotateY(0) !important;
+            transition-timing-function: cubic-bezier(0.42, 0, 0, 1) !important;
+            transition-duration: 1.5s;
+        }
+
+        .critere {
+            list-style: none;
+            text-align: left !important;
+        }
+
+
+        .containere {
+            display: flex;
+            width: 100%;
+            padding: 4%;
+            box-sizing: border-box;
+            height: 100vh;
+            border-radius: 40px;
+
+        }
+
+        .box {
+            flex: 1;
+            overflow: hidden;
+            transition: .5s;
+            margin: 0 2%;
+            line-height: 0;
+            border-radius: 40px;
+
+        }
+
+        .box>img,
+        .box>iframe {
+            width: 200%;
+            height: calc(100% - 10vh);
+            object-fit: cover;
+            transition: .5s;
+            border-radius: 40px;
+        }
+
+
+
+        .box:hover {
+            flex: 1 1 50%;
+        }
+
+        .box:hover>img,
+        .box:hover>iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        .ps-photoset {
+            width: 60%;
+            max-width: 400px;
+            position: relative;
+            margin: 20%;
+            aspect-ratio: 7/5;
+        }
+
+        .ps-photoset:hover .ps-photo {
+            transform: rotate(0deg);
+        }
+
+        .ps-photoset:hover .ps-photo:nth-child(1) {
+            left: 15vw;
+            top: 15vw;
+        }
+
+        .ps-photoset:hover .ps-photo:nth-child(2) {
+            left: -15vw;
+            top: 5vw;
+        }
+
+        .ps-photoset:hover .ps-photo:nth-child(3) {
+            left: 5vw;
+            top: -10vw;
+        }
+
+        .ps-photo {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 300ms all ease;
+            border-radius: 40px;
+
+        }
+
+        .ps-photo:nth-child(1) {
+            transform: rotate(4deg);
+        }
+
+        .ps-photo:nth-child(2) {
+            transform: rotate(3deg);
+        }
+
+        .ps-photo:nth-child(3) {
+            transform: rotate(-3deg);
+        }
+
+        .ps-controls {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 100wv;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            z-index: 999;
+            background: rgba(255, 255, 255, 0.67);
+            border-radius: 1px;
+        }
+
+        .ps-controls .block {
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .ps-controls .option-label {
+            padding: 12px 10px 10px 0;
+        }
+
+        .ps-controls .option-label:hover {
+            cursor: pointer;
+        }
+
+        * {
+            transition: all 0.5s;
+        }
+
+        .modal-containeree {
+            --light: hsl(0, 0%, 100%);
+            --background: linear-gradient(to right bottom,
+                    hsl(236, 50%, 50%),
+                    hsl(195, 50%, 50%));
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background: hsla(0, 0%, 40%, 0.6);
+        }
+
+        .modal-containeree:target {
+            display: flex;
+        }
+
+        .modaleee {
+            width: 100vh;
+            padding: 4rem 2rem;
+            border-radius: 0.8rem;
+            background-color: #1fe0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .modaleee>iframe,
+        .modaleee>img {
+            width: 100vh;
+            height: 100vh;
+        }
+
+        .link-1 {
+            transition: 0.2s;
+        }
+
+
+
+        .link-2 {
+            width: 4rem;
+            height: 4rem;
+            border: 1px solid hsla(0, 0%, 100%, 0.4);
+            border-radius: 100rem;
+            color: inherit;
+            font-size: 2.2rem;
+            position: absolute;
+            top: 4rem;
+            right: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s;
+        }
+
+        .link-2::before {
+            content: "×";
+            transform: translateY(-0.1rem);
+        }
+
+        .link-2:hover,
+        .link-2:focus {
+            border-color: hsla(0, 0%, 100%, 0.6);
+            transform: translateY(-0.2rem);
+        }
+
+        .link-3,
+        .link-3:hover {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .cube-wrap {
+            --size: 3vmin;
+            position: fixed;
+            top: 3%;
+            right: 2%;
+            width: 0;
+            height: 0;
+            perspective: 100vmin;
+        }
+
+        .cube {
+            transform-style: preserve-3d;
+            transform: rotateX(0deg) rotateZ(45deg) rotateY(-45deg);
+            animation: cube 1s linear;
+
+        }
+
+        @keyframes cube {
+            to {
+                transform: rotateX(360deg) rotateZ(45deg) rotateY(-45deg);
+            }
+        }
+
+        .side {
+            position: absolute;
+            width: var(--size);
+            height: var(--size);
+            background-color: #eee;
+            backface-visibility: visible;
+            top: calc(var(--size) * -.5);
+            left: calc(var(--size) * -.5);
+            border-radius: 40px;
+
+        }
+
+        .top {
+            background-color: #ffffff;
+            transform: rotateX(90deg) translateZ(calc(var(--size) * .5));
+            border-radius: 40px;
+
+        }
+
+        .bottom {
+            background-color: #DF8308;
+            transform: rotateX(90deg) translateZ(calc(var(--size) * -.5));
+            border-radius: 40px;
+
+        }
+
+        .left {
+            background-color: #4e4e4e;
+            transform: rotateY(90deg) translateZ(calc(var(--size) * .5));
+            border-radius: 40px;
+
+        }
+
+        .right {
+            background-color: #1a1a1a;
+            transform: rotateY(90deg) translateZ(calc(var(--size) * -.5));
+            border-radius: 40px;
+
+        }
+
+        .front {
+            background-color: black;
+            transform: translateZ(calc(var(--size) * .5));
+            border-radius: 40px;
+
+        }
+
+        .back {
+            background-color: #04AA6D;
+            transform: translateZ(calc(var(--size) * -.5));
+            border-radius: 40px;
+
+        }
+
+        :root * {
+            animation-play-state: paused;
+            animation-delay: calc(var(--scroll) * -1s);
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+    </style>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+        }, false);
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img class="logoA" src="./images/mini_logo.jpg" alt="">
+            <h1> <span>MA</span> <span>Family's</span> <span>Bengals</span></h1>
+
+            <div class="cube-wrap">
+                <div class="cube">
+                    <div class="side top"></div>
+                    <div class="side bottom"></div>
+                    <div class="side front"></div>
+                    <div class="side back"></div>
+                    <div class="side left"></div>
+                    <div class="side right"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <header class="header_top">
+        <div class="headline">
+
+        </div>
+    </header>
+
+
+
+    <div class="header" style="box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);">
+        <div class="slogan" id="slogan">
+            <div class="barnav" id="barnav">
+
+
+
+                <ul class="plop">
+                    <li class="li_fermer">
+                        <span class="material-icons md-48 fermer" id="fermer">cancel</span>
+                    </li>
+                    <li class="li_btn_home">
+                        <button class="bton inverted-7" onclick="window.location='#home'">Accueil</button>
+                    </li>
+                    <li>
+                        <button class="bton inverted-7" onclick="window.location='#a_propos'">À propos </button>
+                    </li>
+                    <li>
+                        <button class="bton inverted-7" onclick="window.location='#blog'">Blog </button>
+                    </li>
+                    <li>
+                        <button class="bton inverted-7" onclick="window.location='#notre_histoire'">Notre histoire </button>
+                    </li>
+                    <li>
+                        <button class="bton inverted-7" onclick="window.location='#notre_gallerie'">Notre gallerie </button>
+                    </li>
+                    <li>
+                        <button class="bton inverted-7" onclick="window.location='#contact'">Contact </button>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="section_caroussel" id="home">
+
+        <div class="carousel">
+            <div class="progress-bar progress-bar--primary hide-on-desktop">
+                <div class="progress-bar__fill"></div>
+            </div>
+
+            <header class="main-post-wrapper">
+
+                <div class="slides">
+                    <article class="main-post main-post--active">
+                        <div class="main-post__image">
+                            <img src="https://images.unsplash.com/photo-1551178092-d341b7a63ae3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="New McLaren wind tunnel 'critical' to future performance, says Tech Director Key" />
+                        </div>
+
+                    </article>
+                    <article class="main-post main-post--not-active">
+                        <div class="main-post__image">
+                            <img src="https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=929&q=80" alt="What To Watch For in the 2019 Hungarian Grand Prix" />
+                        </div>
+
+                    </article>
+                    <article class="main-post main-post--not-active">
+                        <div class="main-post__image">
+                            <img src="https://images.unsplash.com/photo-1469569946320-b4f13e4b7d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Hamilton wants harder championship fight from Leclerc and Verstappen" />
+                        </div>
+
+                    </article>
+                </div>
+            </header>
+
+
+            <div class="posts-wrapper hide-on-mobile">
+                <article class="post post--active">
+                    <div class="progress-bar">
+                        <div class="progress-bar__fill"></div>
+                    </div>
+
+                    <h2 class="post__title">New McLaren wind tunnel 'critical' to future performance, says Tech Director Key</h2>
+                </article>
+                <article class="post">
+                    <div class="progress-bar">
+                        <div class="progress-bar__fill"></div>
+                    </div>
+
+                    <h2 class="post__title">What To Watch For in the 2019 Hungarian Grand Prix</h2>
+                </article>
+                <article class="post">
+                    <div class="progress-bar">
+                        <div class="progress-bar__fill"></div>
+                    </div>
+
+                    <h2 class="post__title">Hamilton wants harder championship fight from Leclerc and Verstappen
+                    </h2>
+                </article>
+            </div>
+
+        </div>
+        <p class="slogane">C’est avant toute chose, une histoire de passion et de connexion…</p>
+    </div>
+
+    <section id="a_propos">
+        <div class="container reveal">
+            <h2 class="bton inverted-8" style="width:100%;padding: 1%;text-align:center !important;">À propos</h2>
+            <div class="text-container" style="padding-top: 10%; display: grid;grid-template-columns: 1fr 1fr;column-gap: 5%;/* gap: 0%;*/">
+                <div class="text-box reveal3">
+                    <h3>Ma family's Bengals</h3>
+                    <p style="padding-top: 10%;">
+                        C’est avant tout l’histoire d’une famille, les Kykois… Une famille de passionnés, des passionnés de chats en général, mais aujourd’hui c’est au travers de Spicy et Tara que nous souhaitons vous faire découvrir le caractère exceptionnel du chat du Bengal… Nous vous invitons, par le biais de cette page, à entrer sans modération dans notre environnement pour partager et vivre avec nous chaque instant de cette aventure féline
+                    </p>
+                    <p style="padding-top: 10%;">
+                        Bienvenue à tous les passionnés…
+                        IS & KO
+                    </p>
+                    <p style="padding-top: 10%;">
+                        <button class="bton inverted-8">Notre histoire <i class="fa-solid fa-paw"></i> </button>
+                    </p>
+                </div>
+                <div class="text-box reveal2">
+                    <img src="./images/img2.jpg" class="image-shadow js-tilt-container" alt="" width="50%" height="auto">
+
+                </div>
+            </div>
+            <br><br>
+
+            <div class="text-container" style="display: grid;grid-template-columns: 1fr 1fr;gap: 0%;">
+                <div class="text-box reveal3">
+                    <img src="./images/img3.jpeg" class="image-shadow js-tilt-container" alt="" width="50%" height="auto">
+
+                </div>
+                <div class="text-box reveal2">
+                    <p style="padding-top: 10%;">
+                        La passion autour des chats d'abord ... et du Bengal en particulier
+                    </p>
+                    <p style="padding-top: 10%;">
+                        La connexion entre Isa et ses chats, L’amour inconditionnel qu’elle leur porte … et cette reconnaissance sans borne qu’ils lui témoignent
+
+                    </p>
+                    <p style="padding-top: 10%;">
+                        <button class="bton inverted-8">Notre gallerie <i class="fa-solid fa-paw"></i> </button>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="blog">
+        <div class="container reveal">
+            <h2 class="bton inverted-8" style="width:100%;padding: 1%;text-align:center !important;">Blog</h2>
+            <div class="text-container" style="padding-top: 10%; display: grid;grid-template-columns: 1fr 1fr;column-gap: 5%;/* gap: 0%;*/">
+                <div class="text-box reveal3">
+                    <h3>C'est avant tout l'histoire d'une famille, les Kykois...</h3>
+                    <p style="padding-top: 10%;">
+                        Une famille de passionnés,
+                        des passionnés de chats en général,
+                        mais aujourd’hui c’est au travers de Spicy et Tara que nous souhaitons vous faire découvrir le caractère exceptionnel du chat du Bengal…
+                        Nous vous invitons, par le biais de cette site, à entrer sans modération dans notre environnement pour partager et vivre avec nous chaque instant de cette aventure féline 🙂
+                        Bienvenue à tous les passionnés…
+                    </p>
+                    <p style="padding-top: 10%;">
+                        IS & KO
+                    </p>
+                </div>
+                <div class="text-box reveal2">
+                    <img src="./images/img5.png" class="image-shadow js-tilt-container" alt="" width="50%" height="auto">
+                </div>
+            </div>
+
+
+            <div class="containere">
+                <div class="box">
+                    <a href="#modal-opened1" class="link-1" id="modal-closed1">
+                        <img src="https://i0.wp.com/www.mafamilysbengals.fr/lulifoh/uploads/2022/12/13.jpg?fit=1000%2C1000&ssl=1" id="myBtnV1">
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#modal-opened2" class="link-1" id="modal-closed2">
+                        <img src="https://i0.wp.com/www.mafamilysbengals.fr/lulifoh/uploads/2022/12/17.jpg?fit=1000%2C1000&ssl=1" onclick="">
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#modal-opened3" class="link-1" id="modal-closed3">
+                        <img src="https://i0.wp.com/www.mafamilysbengals.fr/lulifoh/uploads/2022/12/15.jpg?fit=1000%2C1000&ssl=1" onclick="">
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+    <section id="notre_histoire">
+        <div class="container reveal">
+            <h2 class="bton inverted-8" style="width:100%;padding: 1%;text-align:center !important;">Notre histoire</h2>
+            <div class="text-container" style="padding-top: 10%;display: grid;grid-template-columns: 1fr 1fr;column-gap: 5%;/* gap: 0%;*/">
+
+                <div class="text-box reveal3">
+                    <img src="./images/img5.png" class="image-shadow js-tilt-container" alt="" width="50%" height="auto">
+                </div>
+                <div class="text-box reveal2">
+                    <h3>C'Le Jour où tout a commencé</h3>
+                    <p style="padding-top: 10%;">
+                        Tout a commencé le jour où notre petite Pâquerette (chat calico) a disparu. Nous avons passé des jours entiers à la chercher désespérément.
+                    </p>
+                    <p style="padding-top: 10%;">
+                        Face à la tristesse d’Isa, j’ai décidé de lui offrir un chat de race et de tout mettre en œuvre pour qu’il puisse vivre en parfaite liberté mais toujours sous notre contrôle, contrairement à nos précédents chats qui erraient dans notre jardin en lisière de forêt et qu’il était donc difficile d’avoir à l’œil.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-container" style="display: grid;grid-template-columns: 1fr 1fr;column-gap: 5%;/* gap: 0%;*/">
+
+                <div class="text-box reveal2">
+
+                    <p style="padding-top: 10%;">
+                        Nous avons alors hésité entre un Ragdoll dont le caractère correspondait à celui d’Isa, ou un Bengal dont le caractère correspondait plus au mien. Le choix s’est finalement porté sur un Bengal pour son côté félin et sauvage.
+                    </p>
+                    <p style="padding-top: 10%;">
+                        Nos critères étaient clairs :
+                        <ul>
+                            <li class="critere"><i class="fa-solid fa-paw"></i> une femelle entière</li>
+                            <li class="critere"><i class="fa-solid fa-paw"></i> belle</li>
+                            <li class="critere"><i class="fa-solid fa-paw"></i> sociable</li>
+                        </ul>
+                        “Nous avons ainsi visité de nombreuses chatteries en Belgique, Hollande et même, grâce à quelques contacts dans les pays de l’Est. Finalement, notre bonheur se trouvait en France avec Tara, Black Silver Spotted Tabby.”
+
+                    </p>
+
+                </div>
+                <div class="text-box reveal3 ">
+                    <div class="ps-photoset" style="padding-top: 10%;">
+                        <img src="https://i0.wp.com/www.mafamilysbengals.fr/lulifoh/uploads/2022/12/3.jpg?w=1000&ssl=1" class="ps-photo" alt="">
+                        <img src="https://i0.wp.com/www.mafamilysbengals.fr/lulifoh/uploads/2022/12/10.jpg?w=1000&ssl=1" class="ps-photo" alt="">
+                        <img src="https://i0.wp.com/www.mafamilysbengals.fr/lulifoh/uploads/2022/12/7.jpg?w=1000&ssl=1" class="ps-photo" alt="">
+                        <img src="https://i0.wp.com/www.mafamilysbengals.fr/lulifoh/uploads/2022/12/12.jpg?w=1000&ssl=1" class="ps-photo" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+    <div class="modal-containeree" id="modal-opened1">
+        <div class="modaleee">
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/787103883?h=21f0ddbc6a" frameborder="0" allowfullscreen></iframe>
+            <a href="#modal-closed1" class="link-2"></a>
+        </div>
+    </div>
+
+    <div class="modal-containeree" id="modal-opened2">
+        <div class="modaleee">
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/787109539?h=33626ac3a7" frameborder="0" allowfullscreen></iframe>
+            <a href="#modal-closed2" class="link-2"></a>
+        </div>
+    </div>
+
+    <div class="modal-containeree" id="modal-opened3">
+        <div class="modaleee">
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/787106884?h=212dfc54c0" frameborder="0" allowfullscreen></iframe>
+            <a href="#modal-closed3" class="link-2"></a>
+        </div>
+    </div>
+
+
+
+    <section id="notre_gallerie">
+        <div class="container reveal">
+            <h2 class="bton inverted-8" style="width:100%;padding: 1%;text-align:center !important;">Notre gallerie</h2>
+            <div class="text-container">
+                <div class="text-box reveal2" style="padding-top: 10%;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;gap: 2%;">
+
+
+
+                    <img src="./images/1.jpg" class="image-shadow js-tilt-container " id="modal-closed4" alt="" width="50%" height="auto" onclick="window.location='#modal-opened4'">
+                    <img src="./images/2.jpg" class="image-shadow js-tilt-container" id="modal-closed5" alt="" width="50%" height="auto" onclick="window.location='#modal-opened5'">
+                    <img src="./images/3.jpg" class="image-shadow js-tilt-container" id="modal-closed6" alt="" width="50%" height="auto" onclick="window.location='#modal-opened6'">
+                    <img src="./images/4.jpg" class="image-shadow js-tilt-container" id="modal-closed7" alt="" width="50%" height="auto" onclick="window.location='#modal-opened7'">
+                    <img src="./images/5.jpg" class="image-shadow js-tilt-container" id="modal-closed8" alt="" width="50%" height="auto" onclick="window.location='#modal-opened8'">
+                    <img src="./images/6.jpg" class="image-shadow js-tilt-container" id="modal-closed9" alt="" width="50%" height="auto" onclick="window.location='#modal-opened9'">
+                    <img src="./images/7.jpg" class="image-shadow js-tilt-container" id="modal-closed10" alt="" width="50%" height="auto" onclick="window.location='#modal-opened10'">
+                    <img src="./images/8.jpg" class="image-shadow js-tilt-container" id="modal-closed11" alt="" width="50%" height="auto" onclick="window.location='#modal-opened11'">
+                    <img src="./images/9.jpg" class="image-shadow js-tilt-container" id="modal-closed12" alt="" width="50%" height="auto" onclick="window.location='#modal-opened12'">
+                    <img src="./images/10.jpg" class="image-shadow js-tilt-container" id="modal-closed13" alt="" width="50%" height="auto" onclick="window.location='#modal-opened13'">
+                    <img src="./images/11.jpg" class="image-shadow js-tilt-container" id="modal-closed14" alt="" width="50%" height="auto" onclick="window.location='#modal-opened14'">
+                    <img src="./images/13.jpg" class="image-shadow js-tilt-container" id="modal-closed15" alt="" width="50%" height="auto" onclick="window.location='#modal-opened15'">
+                    <img src="./images/14.jpg" class="image-shadow js-tilt-container" id="modal-closed16" alt="" width="50%" height="auto" onclick="window.location='#modal-opened16'">
+                    <img src="./images/15.jpg" class="image-shadow js-tilt-container" id="modal-closed17" alt="" width="50%" height="auto" onclick="window.location='#modal-opened17'">
+                    <img src="./images/16.jpg" class="image-shadow js-tilt-container" id="modal-closed18" alt="" width="50%" height="auto" onclick="window.location='#modal-opened18'">
+                    <img src="./images/17.jpg" class="image-shadow js-tilt-container" id="modal-closed19" alt="" width="50%" height="auto" onclick="window.location='#modal-opened19'">
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal-containeree" id="modal-opened4">
+        <div class="modaleee">
+            <a href="#modal-closed4" class="link-3">
+                <img src="./images/1.jpg" alt="">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="modal-containeree" id="modal-opened5">
+        <div class="modaleee">
+            <a href="#modal-closed5" class="link-3">
+                <img src="./images/2.jpg" alt="">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="modal-containeree" id="modal-opened6">
+        <div class="modaleee">
+            <a href="#modal-closed6" class="link-3">
+                <img src="./images/3.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="modal-containeree" id="modal-opened7">
+        <div class="modaleee">
+            <a href="#modal-closed7" class="link-3">
+                <img src="./images/4.jpg" alt="">
+            </a>
+
+        </div>
+    </div>
+
+
+
+    <section id="contact">
+        <div class="container reveal">
+            <h2 class="bton inverted-8" style="width:100%;padding: 1%;text-align:center !important;">Contact</h2>
+            <div class="text-container" style="padding-top: 10%;display: grid;grid-template-columns: 1fr 1fr;column-gap: 5%;/* gap: 0%;*/">
+                <style>
+                    #map {
+                        border-radius: 40px !important;
+                    }
+
+                    #map>* {
+                        border-radius: 0px !important;
+
+                    }
+
+                    .leaflet-map-pane {
+                        border-radius: 40px !important;
+
+                    }
+
+                    .leaflet-tile,
+                    .leaflet-tile-loaded {
+                        border-radius: 0 !important;
+                        box-shadow: none !important;
+                        /* box-shadow: 0 #1fe0; */
+
+                    }
+
+                    input[type=text],
+                    select,
+                    textarea {
+                        width: 100%;
+                        padding: 12px;
+                        border: 1px solid #ccc;
+                        border-radius: 40px;
+                        box-sizing: border-box;
+                        margin-top: 6px;
+                        margin-bottom: 16px;
+                        resize: vertical;
+                    }
+
+                    input[type=submit],
+                    .shar {
+                        background-color: #04AA6D;
+                        color: white;
+                        padding: 12px 20px;
+                        border: none;
+                        border-radius: 40px;
+                        cursor: pointer;
+                        text-align: center !important;
+                    }
+
+                    .n0 {
+                        background-color: #1a1a1a;
+                    }
+
+                    .n1 {
+                        background-color: #3b5998;
+                    }
+
+                    .n2 {
+                        background-color: #C13584
+                    }
+
+                    .n3 {
+                        background-color: rgb(247, 31, 31)
+                    }
+
+                    input[type=submit]:hover,
+                    .shar:hover {
+                        background-color: #DF8308;
+                    }
+
+                    .containereeeee {
+                        border-radius: 40px;
+                        background-color: #f2f2f2;
+                        padding: 20px;
+                        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+                    }
+                </style>
+                <div class="text-box reveal3" id="map">
+
+                </div>
+                <div class="text-box reveal2">
+                    <h3>Prenez contact avec nous!</h3>
+                    <div style="padding-top: 10%;">
+
+                        <div class="containereeeee">
+                            <form action="/action_page.php">
+                                <input type="text" id="fname" name="firstname" placeholder="Prénom">
+
+                                <input type="text" id="lname" name="lastname" placeholder="Nom">
+
+                                <input type="text" id="lname" name="lastname" placeholder="Adresse mail">
+
+                                <textarea id="subject" name="subject" placeholder="Veuillez nous écrire votre message..." style="height:200px"></textarea>
+                                <div style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;gap: 5%;">
+                                    <input type="submit" value="Envoyer">
+                                    <button class="shar n1"><i class="fa-brands fa-facebook" style=" transform: scale(2);"></i></button>
+                                    <button class="shar n2"><i class="fa-brands fa-instagram" style=" transform: scale(2);"></i></button>
+                                    <button class="shar n3"><i class="fa-solid fa-envelope" style="transform: scale(2);"></i></button>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+    <div class="footer" style="font-size: 12px !important; display: grid;grid-template-columns: 40% 20% 40%;gap: 0%;">
+        <div></div>
+        <div style="padding-right: 10%;padding-left: 10%;">
+            <button class="shar n0" style="background-color: #1fe0;"><i class="fa-solid fa-message" style="display: inline-block !important; transform: scale(2);"></i></button>
+            <button class="shar n1" style="background-color: #1fe0;"><i class="fa-brands fa-facebook" style="display: inline-block !important; transform: scale(2);"></i></button>
+            <button class="shar n2" style="background-color: #1fe0;"><i class="fa-brands fa-instagram" style="display: inline-block !important; transform: scale(2);"></i></button>
+            <button class="shar n3" style="background-color: #1fe0;"><i class="fa-solid fa-envelope" style="display: inline-block !important; transform: scale(2);"></i></button>
+
+        </div>
+
+        <div></div>
+
+
+    </div>
+    <div class="footer2"></div>
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/login_modal.js"></script>
+    <script type="text/javascript" src="./js/search_modal.js"></script>
+    <script type="text/javascript" src="./js/video_modal.js"></script>
+    <script type="text/javascript" src="./js/barnav_mobile.js"></script>
+
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script>
+        var mapOptions = {
+            center: [48.864824, 2.334595],
+            zoom: 10
+        }
+
+        var map = new L.map('map', mapOptions);
+
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+        map.addLayer(layer);
+    </script>
+
+    <script>
+        var bReady;
+
+        $(document).ready(function() {
+            $(".ps-photoset").hover(function() {
+                bReady = false;
+                setTimeout(function() {
+                    bReady = true;
+                }, 300);
+            });
+
+            $(".ps-photo").hover(function() {
+                if (bReady == true) {
+                    $(".ps-photo").css("z-index", "auto");
+                    $(this).css("z-index", "4");
+                } else {
+                    // condole.log("stacking temporarily disabled")
+                }
+            });
+
+        });
+    </script>
+
+    <script>
+        $(document).on('mousemove', function(e) {
+            $('.light').css({
+                left: e.pageX - 300,
+                top: e.pageY - 300
+            });
+        });
+
+        var el = $('.js-tilt-container');
+
+        el.on('mousemove', function(e) {
+            const {
+                left,
+                top
+            } = $(this).offset();
+            const cursPosX = e.pageX - left;
+            const cursPosY = e.pageY - top;
+            const cursFromCenterX = $(this).width() / 2 - cursPosX;
+            const cursFromCenterY = $(this).height() / 2 - cursPosY;
+
+
+            $(this).css('transform', 'perspective(500px) rotateX(' + (cursFromCenterY / 40) + 'deg) rotateY(' + -(cursFromCenterX / 40) + 'deg) translateZ(10px)');
+
+            const invertedX = Math.sign(cursFromCenterX) > 0 ? -Math.abs(cursFromCenterX) : Math.abs(cursFromCenterX);
+
+            $(this).find('.js-perspective-neg').css('transform', 'translateY(' + (cursFromCenterY / 10) + 'px) translateX(' + -(invertedX / 10) + 'px) scale(1.15)');
+
+            $(this).removeClass('leave');
+        });
+
+        el.on('mouseleave', function() {
+            $(this).addClass('leave');
+        });
+    </script>
+
+    <script>
+        $('button').on('click', function() {
+            $('button').removeClass('selected');
+            $(this).addClass('selected');
+        });
+    </script>
+    <script>
+        let section = document.querySelectorAll("section");
+        let menu = document.querySelectorAll("div div div ul li button");
+
+
+        window.onscroll = () => {
+            section.forEach((i) => {
+                let top = window.scrollY;
+                let offset = i.offsetTop - 150;
+                let height = i.offsetHeight;
+                let id = i.getAttribute("id");
+
+                if (top >= offset && top < offset + height) {
+                    menu.forEach((link) => {
+                        link.classList.remove("active");
+                        document
+                            .querySelector("div div div ul li button[window.location.href*=" + id + "]")
+
+                            .classList.add("active");
+                    });
+                }
+            });
+        };
+
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            var reveals2 = document.querySelectorAll(".reveal2");
+            var reveals3 = document.querySelectorAll(".reveal3");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+
+            for (var i = 0; i < reveals2.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals2[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals2[i].classList.add("active2");
+                } else {
+                    reveals2[i].classList.remove("active2");
+                }
+            }
+
+            for (var i = 0; i < reveals3.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals3[i].getBoundingClientRect().top;
+                var elementVisible = -150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals3[i].classList.add("active3");
+                } else {
+                    reveals3[i].classList.remove("active3");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+
+        reveal();
+    </script>
+
+    <script type="text/javascript" defer>
+        let mainPosts = document.querySelectorAll(".main-post");
+        let posts = document.querySelectorAll(".post");
+
+        let i = 0;
+        let postIndex = 0;
+        let currentPost = posts[postIndex];
+        let currentMainPost = mainPosts[postIndex];
+
+        let progressInterval = setInterval(progress, 100); // 180
+
+        function progress() {
+            if (i === 100) {
+                i = -5;
+                currentPost.querySelector(".progress-bar__fill").style.width = 0;
+                document.querySelector(
+                    ".progress-bar--primary .progress-bar__fill"
+                ).style.width = 0;
+                currentPost.classList.remove("post--active");
+
+                postIndex++;
+
+                currentMainPost.classList.add("main-post--not-active");
+                currentMainPost.classList.remove("main-post--active");
+
+                if (postIndex === posts.length) {
+                    postIndex = 0;
+                }
+
+                currentPost = posts[postIndex];
+                currentMainPost = mainPosts[postIndex];
+            } else {
+                i++;
+                currentPost.querySelector(".progress-bar__fill").style.width = `${i}%`;
+                document.querySelector(
+                    ".progress-bar--primary .progress-bar__fill"
+                ).style.width = `${i}%`;
+                currentPost.classList.add("post--active");
+
+                currentMainPost.classList.add("main-post--active");
+                currentMainPost.classList.remove("main-post--not-active");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

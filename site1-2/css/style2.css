@@ -1,0 +1,115 @@
+section {
+    padding: 15%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#a_propos {
+    color: #e0ffff;
+    background-color: #4e4e4e;
+}
+
+#a_propos>p {
+    padding: 5% !important;
+}
+
+
+#blog {
+    color: #e0ffff;
+    background-color: #1a1a1a;
+}
+
+#notre_histoire {
+    color: #e0ffff;
+    background-color: #4e4e4e;
+}
+
+#notre_gallerie {
+    color: #e0ffff;
+    background-color: #1a1a1a;
+}
+
+#contact {
+    color: #e0ffff;
+    background-color: #4e4e4e;
+}
+
+
+section h1 {
+    font-size: 3rem;
+}
+
+section h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section .text-container {
+    display: flex;
+}
+
+section .text-container .text-box {
+    padding: 1%;
+    background: #1FE0;
+}
+
+
+
+section .text-container .text-box h3 {
+    font-size: 30px;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 900px) {
+    section h1 {
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    section .text-container {
+        flex-direction: column;
+    }
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.reveal2 {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal2.active2 {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.reveal3 {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal3.active3 {
+    transform: translateX(0);
+    opacity: 1;
+}
